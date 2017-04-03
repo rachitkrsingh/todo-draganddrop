@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5"/>
+	<meta name="Assignment" author="Rachit Kumar Singh"/>
+
+	<title>Goalwise Assignment</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container ">
+
+	<div class="loaderOverlay" id="loaderOverlay">
+		<img src="image/loader.gif">
+	</div>
+
+	<div class="input-count-container clearfix">
+		<div class="task-input-container float-left">
+		  <form action="#" id="todoForm">
+		      <input type="text" id="taskInputField" class="task-input-field rounded" placeholder="Type a task and press enter to add task">
+		  </form>
+		</div>
+		<div class="total-count float-right">
+			Total : <span></span>
+		</div>
+	</div>
+
+
+	<div class="lists-container clearfix" id="">
+		<div class="todo-items float-left one-third-width clearfix" id="todoList">
+			<div class="list-header clearfix">
+				<div class="header-title float-left">
+					Todo
+				</div>
+				<div class="list-count float-right">
+					
+				</div>
+			</div>
+			<div class="list rounded " >
+				<ul id="todoUl">
+					
+				</ul>
+			</div>
+		</div>
+		<div class="inprogress-items middle-child one-third-width" id="inProgress">
+			<div class="list-header clearfix">
+				<div class="header-title float-left">
+					In Progress
+				</div>
+				<div class="list-count float-right">
+					
+				</div>
+			</div>
+			
+			<div class="list rounded">
+				<ul id="inprogressUl">
+					
+				</ul>
+			</div>
+		</div>
+		<div class="completed-items float-right one-third-width" id="Completed">
+			<div class="list-header  clearfix">
+				<div class="header-title float-left">
+					Completed
+				</div>
+				<div class="list-count float-right">
+					
+				</div>
+			</div>
+			<div class="list rounded">
+				<ul id="completedUl">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+ 
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script src="js/Sortable.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+</html>

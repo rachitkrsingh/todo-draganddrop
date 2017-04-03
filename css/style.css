@@ -1,0 +1,151 @@
+html,body {
+  font-family: 'Open Sans';
+  color: #636363;
+}
+
+
+/************************
+  Utility css
+*************************/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.display-inline {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+.middle-child {
+  margin: 0 5%;
+  float: left;
+}
+
+.rounded {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.one-third-width {
+  width: 30%;
+}
+/************************
+  Element css
+*************************/
+.container {
+  position: relative;
+}
+.input-count-container {
+  width: 100%;
+  height: 50px;
+}
+.task-input-container{
+  width: 60%;
+
+}
+.task-input-field {
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    padding: 10px;
+}
+.total-count {
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+    background: #53e8b6;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.lists-container {
+  background-color:#457696;
+  color: #fff;
+  padding: 15px;
+}
+.lists-container ul {
+  margin: 0;
+  padding: 0;
+}
+.lists-container ul li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.list-header {
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.header-title {
+    padding: 0 7%;
+    background-color: #1c95de;
+    width: 55%;
+    height: 100%;
+    text-align: left;
+    line-height: 2.5;
+}
+.list{
+    margin: 10px 0;
+    background-color: #FCFFFD;
+    color: #000;
+    border: 0;
+}
+.list-count {
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid;
+    line-height: 40px;
+    background-color: #59C3D9;
+}
+
+.list ul {
+  min-height: 30px;
+}
+
+
+.loaderOverlay{
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.4);
+    display: none;
+} 
+.loaderOverlay.show{
+  display: block;
+}
+.loaderOverlay img{
+      position: absolute;
+    top: 50%;
+}
+
+.remove-list-item {
+    float: right;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 38px;
+    cursor: pointer;
+    z-index: 1000;
+}
